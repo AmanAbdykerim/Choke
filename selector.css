@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    /* Font-Family: Verdana, Arial, sans-serif; */
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    border: 2PX solid;
+    color: #0f141e;
+    background: #f1f1f1;
+
+}  
+.container {
+    max-width: 700px;
+    margin: auto;
+    padding-top: 30px;
+
+
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+    margin-bottom: 20px;
+}
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: #86898f;
+    margin: 0;
+}
+
+.info-text h4 {
+    margin-bottom: 20px;
+}
+.card { 
+    border-radius: 20px;  
+    padding: 15px 20px; 
+    margin-bottom: 20px;
+}
+.bg-yellow {
+    background: #fff9dc;
+}
+.bg-red {
+    background: #ffe5e5;
+}
+.bg-green {
+    background: #e5ffe7;
+}
+
+
+.avatar {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25)
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    
+}
+a:hover { 
+color: green;
+font-size: 24px;
+text-decoration: underline;
+}
+
+a:visited {
+    color: darkblue;
+    
+}
+a:active{
+    color:aqua;
+}
+
+.btn {
+    cursor: pointer;
+    color: black;
+    background-color: grey;
+    padding: 13px 22px;
+   border: none;
+}
+.btn:hover {
+    color: azure;
+    font-size: 20px;
+     opacity: 1;
+
+}
